@@ -29,7 +29,7 @@ python server.py
 python service.py
 ```
 
-输入如下：
+输出如下：
 ```shell
 airplane.jpg: {'score': 0.9807844161987305, 'label': 404, 'class_name': 'airliner'}
 car.jpg: {'score': 0.9351834058761597, 'label': 817, 'class_name': 'sports car, sport car'}
@@ -40,7 +40,7 @@ dog.jpg: {'score': 0.45859256386756897, 'label': 162, 'class_name': 'beagle'}
 
 # 请求服务
 
-在本地请求服务(将`service.py`和`images`拷贝到本地)
+在本地请求服务（将`service.py`和`images`拷贝到本地）
 ```shell
 python service.py --ip <server ip>
 ```
