@@ -1,0 +1,5 @@
+kserve
+numpy
+pillow
+torch
+torchvision
